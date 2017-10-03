@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EEE366DCEBE2BEDE57996B9 /* libPods-Imavox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D164952F8A9139F91C58BFDA /* libPods-Imavox.a */; };
+		CE5EAFCB1F80CA9A00098CD5 /* Imanov_Network.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5EAFCA1F80CA9A00098CD5 /* Imanov_Network.m */; };
+		CE5EAFD01F80E1CA00098CD5 /* Login_LinkedIn.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5EAFCF1F80E1CA00098CD5 /* Login_LinkedIn.m */; };
+		CE5EAFD61F81018900098CD5 /* Imanov_View.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5EAFD51F81018900098CD5 /* Imanov_View.m */; };
+		CE65419A1F7F945D0094F9DC /* Imanov_Button.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6541991F7F945D0094F9DC /* Imanov_Button.m */; };
+		CE65419D1F7F9A1F0094F9DC /* LoginAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CE65419C1F7F9A1F0094F9DC /* LoginAction.m */; };
+		CE6541A01F7F9B1E0094F9DC /* Imanov_Nav.m in Sources */ = {isa = PBXBuildFile; fileRef = CE65419F1F7F9B1E0094F9DC /* Imanov_Nav.m */; };
+		CE6541A51F7FABEE0094F9DC /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6541A41F7FABEE0094F9DC /* MainVC.m */; };
+		CE6541A81F8005F30094F9DC /* MenuAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6541A71F8005F30094F9DC /* MenuAction.m */; };
+		CE6541AB1F8006AF0094F9DC /* PlaceholderConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6541AA1F8006AF0094F9DC /* PlaceholderConstant.m */; };
+		CE6541AE1F8006BB0094F9DC /* ImageConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6541AD1F8006BB0094F9DC /* ImageConstant.m */; };
+		CE6541B11F8011040094F9DC /* Imanov_Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6541B01F8011040094F9DC /* Imanov_Alert.m */; };
+		CE6541B61F80195E0094F9DC /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6541B51F80195E0094F9DC /* User.m */; };
+		CE692CB81F8364F700474B5E /* linkedin-sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5EAFCC1F80E02400098CD5 /* linkedin-sdk.framework */; };
+		CEEB5CE81F7E4DAA008C861E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB5CE71F7E4DAA008C861E /* main.m */; };
+		CEEB5CEB1F7E4DAA008C861E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB5CEA1F7E4DAA008C861E /* AppDelegate.m */; };
+		CEEB5CF11F7E4DAA008C861E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEB5CEF1F7E4DAA008C861E /* Main.storyboard */; };
+		CEEB5CF31F7E4DAA008C861E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEB5CF21F7E4DAA008C861E /* Assets.xcassets */; };
+		CEEB5CF61F7E4DAA008C861E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEB5CF41F7E4DAA008C861E /* LaunchScreen.storyboard */; };
+		CEEB5CFF1F7E4EA5008C861E /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB5CFE1F7E4EA5008C861E /* LoginVC.m */; };
+		CEEB5D021F7E4EB3008C861E /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB5D011F7E4EB3008C861E /* RegisterVC.m */; };
+		CEEB5D051F7E4EC7008C861E /* ForgotVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB5D041F7E4EC7008C861E /* ForgotVC.m */; };
+		CEEB5D101F7E512E008C861E /* Imanov_TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB5D0F1F7E512E008C861E /* Imanov_TextField.m */; };
+		CEEB5D131F7E51D8008C861E /* ResizeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB5D121F7E51D8008C861E /* ResizeManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4812F10A917570E2CB11E34B /* Pods-Imavox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Imavox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Imavox/Pods-Imavox.debug.xcconfig"; sourceTree = "<group>"; };
+		CE5EAFC91F80CA9A00098CD5 /* Imanov_Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Imanov_Network.h; sourceTree = "<group>"; };
+		CE5EAFCA1F80CA9A00098CD5 /* Imanov_Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Imanov_Network.m; sourceTree = "<group>"; };
+		CE5EAFCC1F80E02400098CD5 /* linkedin-sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "linkedin-sdk.framework"; sourceTree = "<group>"; };
+		CE5EAFCE1F80E1CA00098CD5 /* Login_LinkedIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login_LinkedIn.h; sourceTree = "<group>"; };
+		CE5EAFCF1F80E1CA00098CD5 /* Login_LinkedIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login_LinkedIn.m; sourceTree = "<group>"; };
+		CE5EAFD41F81018900098CD5 /* Imanov_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Imanov_View.h; sourceTree = "<group>"; };
+		CE5EAFD51F81018900098CD5 /* Imanov_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Imanov_View.m; sourceTree = "<group>"; };
+		CE6541981F7F945D0094F9DC /* Imanov_Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Imanov_Button.h; sourceTree = "<group>"; };
+		CE6541991F7F945D0094F9DC /* Imanov_Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Imanov_Button.m; sourceTree = "<group>"; };
+		CE65419B1F7F9A1F0094F9DC /* LoginAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginAction.h; sourceTree = "<group>"; };
+		CE65419C1F7F9A1F0094F9DC /* LoginAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginAction.m; sourceTree = "<group>"; };
+		CE65419E1F7F9B1E0094F9DC /* Imanov_Nav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Imanov_Nav.h; sourceTree = "<group>"; };
+		CE65419F1F7F9B1E0094F9DC /* Imanov_Nav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Imanov_Nav.m; sourceTree = "<group>"; };
+		CE6541A31F7FABEE0094F9DC /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		CE6541A41F7FABEE0094F9DC /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		CE6541A61F8005F30094F9DC /* MenuAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuAction.h; sourceTree = "<group>"; };
+		CE6541A71F8005F30094F9DC /* MenuAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuAction.m; sourceTree = "<group>"; };
+		CE6541A91F8006AF0094F9DC /* PlaceholderConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderConstant.h; sourceTree = "<group>"; };
+		CE6541AA1F8006AF0094F9DC /* PlaceholderConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderConstant.m; sourceTree = "<group>"; };
+		CE6541AC1F8006BB0094F9DC /* ImageConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageConstant.h; sourceTree = "<group>"; };
+		CE6541AD1F8006BB0094F9DC /* ImageConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageConstant.m; sourceTree = "<group>"; };
+		CE6541AF1F8011040094F9DC /* Imanov_Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Imanov_Alert.h; sourceTree = "<group>"; };
+		CE6541B01F8011040094F9DC /* Imanov_Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Imanov_Alert.m; sourceTree = "<group>"; };
+		CE6541B41F80195E0094F9DC /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		CE6541B51F80195E0094F9DC /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		CEEB5CE31F7E4DAA008C861E /* Imavox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imavox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEB5CE71F7E4DAA008C861E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEEB5CE91F7E4DAA008C861E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEEB5CEA1F7E4DAA008C861E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEEB5CF01F7E4DAA008C861E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEEB5CF21F7E4DAA008C861E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEEB5CF51F7E4DAA008C861E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEEB5CF71F7E4DAA008C861E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEB5CFD1F7E4EA5008C861E /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		CEEB5CFE1F7E4EA5008C861E /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		CEEB5D001F7E4EB3008C861E /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
+		CEEB5D011F7E4EB3008C861E /* RegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
+		CEEB5D031F7E4EC6008C861E /* ForgotVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotVC.h; sourceTree = "<group>"; };
+		CEEB5D041F7E4EC7008C861E /* ForgotVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotVC.m; sourceTree = "<group>"; };
+		CEEB5D0E1F7E512E008C861E /* Imanov_TextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Imanov_TextField.h; sourceTree = "<group>"; };
+		CEEB5D0F1F7E512E008C861E /* Imanov_TextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Imanov_TextField.m; sourceTree = "<group>"; };
+		CEEB5D111F7E51D8008C861E /* ResizeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResizeManager.h; sourceTree = "<group>"; };
+		CEEB5D121F7E51D8008C861E /* ResizeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResizeManager.m; sourceTree = "<group>"; };
+		D164952F8A9139F91C58BFDA /* libPods-Imavox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Imavox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4F624B0E45103FC72569274 /* Pods-Imavox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Imavox.release.xcconfig"; path = "Pods/Target Support Files/Pods-Imavox/Pods-Imavox.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEEB5CE01F7E4DAA008C861E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEE366DCEBE2BEDE57996B9 /* libPods-Imavox.a in Frameworks */,
+				CE692CB81F8364F700474B5E /* linkedin-sdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A3A4EF8FD605B486F500147 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4812F10A917570E2CB11E34B /* Pods-Imavox.debug.xcconfig */,
+				D4F624B0E45103FC72569274 /* Pods-Imavox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE5EAFC81F80CA6200098CD5 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				CE65419E1F7F9B1E0094F9DC /* Imanov_Nav.h */,
+				CE65419F1F7F9B1E0094F9DC /* Imanov_Nav.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		CE6541A11F7FABB20094F9DC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB5CFD1F7E4EA5008C861E /* LoginVC.h */,
+				CEEB5CFE1F7E4EA5008C861E /* LoginVC.m */,
+				CEEB5D001F7E4EB3008C861E /* RegisterVC.h */,
+				CEEB5D011F7E4EB3008C861E /* RegisterVC.m */,
+				CEEB5D031F7E4EC6008C861E /* ForgotVC.h */,
+				CEEB5D041F7E4EC7008C861E /* ForgotVC.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		CE6541A21F7FABD40094F9DC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CE6541A31F7FABEE0094F9DC /* MainVC.h */,
+				CE6541A41F7FABEE0094F9DC /* MainVC.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		CE6541B21F8015440094F9DC /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				CE65419B1F7F9A1F0094F9DC /* LoginAction.h */,
+				CE65419C1F7F9A1F0094F9DC /* LoginAction.m */,
+				CE6541A61F8005F30094F9DC /* MenuAction.h */,
+				CE6541A71F8005F30094F9DC /* MenuAction.m */,
+			);
+			name = Action;
+			sourceTree = "<group>";
+		};
+		CE6541B31F80190C0094F9DC /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				CE6541A91F8006AF0094F9DC /* PlaceholderConstant.h */,
+				CE6541AA1F8006AF0094F9DC /* PlaceholderConstant.m */,
+				CE6541AC1F8006BB0094F9DC /* ImageConstant.h */,
+				CE6541AD1F8006BB0094F9DC /* ImageConstant.m */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		CEEB5CDA1F7E4DAA008C861E = {
+			isa = PBXGroup;
+			children = (
+				CE5EAFCC1F80E02400098CD5 /* linkedin-sdk.framework */,
+				CEEB5CE51F7E4DAA008C861E /* Imavox */,
+				CEEB5CE41F7E4DAA008C861E /* Products */,
+				9A3A4EF8FD605B486F500147 /* Pods */,
+				FA0C8DDB8F7A8EE18E5F1E2B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEEB5CE41F7E4DAA008C861E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB5CE31F7E4DAA008C861E /* Imavox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEEB5CE51F7E4DAA008C861E /* Imavox */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB5CE91F7E4DAA008C861E /* AppDelegate.h */,
+				CEEB5CEA1F7E4DAA008C861E /* AppDelegate.m */,
+				CEEB5D0D1F7E4F89008C861E /* Storyboard */,
+				CEEB5D061F7E4ECA008C861E /* App */,
+				CEEB5CF21F7E4DAA008C861E /* Assets.xcassets */,
+				CEEB5CF71F7E4DAA008C861E /* Info.plist */,
+				CEEB5CE61F7E4DAA008C861E /* Supporting Files */,
+			);
+			path = Imavox;
+			sourceTree = "<group>";
+		};
+		CEEB5CE61F7E4DAA008C861E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB5CE71F7E4DAA008C861E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEEB5D061F7E4ECA008C861E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB5D071F7E4ED4008C861E /* Controller */,
+				CEEB5D081F7E4EDB008C861E /* View */,
+				CEEB5D091F7E4EE2008C861E /* Model */,
+				CE6541B31F80190C0094F9DC /* Constant */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		CEEB5D071F7E4ED4008C861E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE6541B21F8015440094F9DC /* Action */,
+				CE6541A11F7FABB20094F9DC /* Login */,
+				CE6541A21F7FABD40094F9DC /* Main */,
+				CE5EAFC81F80CA6200098CD5 /* Navigation */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CEEB5D081F7E4EDB008C861E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB5D0E1F7E512E008C861E /* Imanov_TextField.h */,
+				CEEB5D0F1F7E512E008C861E /* Imanov_TextField.m */,
+				CE6541981F7F945D0094F9DC /* Imanov_Button.h */,
+				CE6541991F7F945D0094F9DC /* Imanov_Button.m */,
+				CE6541AF1F8011040094F9DC /* Imanov_Alert.h */,
+				CE6541B01F8011040094F9DC /* Imanov_Alert.m */,
+				CE5EAFD41F81018900098CD5 /* Imanov_View.h */,
+				CE5EAFD51F81018900098CD5 /* Imanov_View.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CEEB5D091F7E4EE2008C861E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB5D111F7E51D8008C861E /* ResizeManager.h */,
+				CEEB5D121F7E51D8008C861E /* ResizeManager.m */,
+				CE6541B41F80195E0094F9DC /* User.h */,
+				CE6541B51F80195E0094F9DC /* User.m */,
+				CE5EAFC91F80CA9A00098CD5 /* Imanov_Network.h */,
+				CE5EAFCA1F80CA9A00098CD5 /* Imanov_Network.m */,
+				CE5EAFCE1F80E1CA00098CD5 /* Login_LinkedIn.h */,
+				CE5EAFCF1F80E1CA00098CD5 /* Login_LinkedIn.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CEEB5D0D1F7E4F89008C861E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB5CEF1F7E4DAA008C861E /* Main.storyboard */,
+				CEEB5CF41F7E4DAA008C861E /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		FA0C8DDB8F7A8EE18E5F1E2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D164952F8A9139F91C58BFDA /* libPods-Imavox.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEEB5CE21F7E4DAA008C861E /* Imavox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEB5CFA1F7E4DAA008C861E /* Build configuration list for PBXNativeTarget "Imavox" */;
+			buildPhases = (
+				2D474A1E39E05E4309588686 /* [CP] Check Pods Manifest.lock */,
+				CEEB5CDF1F7E4DAA008C861E /* Sources */,
+				CEEB5CE01F7E4DAA008C861E /* Frameworks */,
+				CEEB5CE11F7E4DAA008C861E /* Resources */,
+				FC4DDE12CE8843B59CA5ED4F /* [CP] Embed Pods Frameworks */,
+				5EA420244640520C6BC152F6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Imavox;
+			productName = Imavox;
+			productReference = CEEB5CE31F7E4DAA008C861E /* Imavox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEEB5CDB1F7E4DAA008C861E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HIPSTER;
+				TargetAttributes = {
+					CEEB5CE21F7E4DAA008C861E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XB2VWAU2J6;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = CEEB5CDE1F7E4DAA008C861E /* Build configuration list for PBXProject "Imavox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEEB5CDA1F7E4DAA008C861E;
+			productRefGroup = CEEB5CE41F7E4DAA008C861E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEEB5CE21F7E4DAA008C861E /* Imavox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEEB5CE11F7E4DAA008C861E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEB5CF61F7E4DAA008C861E /* LaunchScreen.storyboard in Resources */,
+				CEEB5CF31F7E4DAA008C861E /* Assets.xcassets in Resources */,
+				CEEB5CF11F7E4DAA008C861E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D474A1E39E05E4309588686 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Imavox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EA420244640520C6BC152F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Imavox/Pods-Imavox-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/OpenSans/OpenSans.bundle,
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Imavox/Pods-Imavox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC4DDE12CE8843B59CA5ED4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Imavox/Pods-Imavox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEEB5CDF1F7E4DAA008C861E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6541B61F80195E0094F9DC /* User.m in Sources */,
+				CEEB5D051F7E4EC7008C861E /* ForgotVC.m in Sources */,
+				CE5EAFD61F81018900098CD5 /* Imanov_View.m in Sources */,
+				CE6541A01F7F9B1E0094F9DC /* Imanov_Nav.m in Sources */,
+				CE6541A81F8005F30094F9DC /* MenuAction.m in Sources */,
+				CE6541AE1F8006BB0094F9DC /* ImageConstant.m in Sources */,
+				CE6541A51F7FABEE0094F9DC /* MainVC.m in Sources */,
+				CEEB5CEB1F7E4DAA008C861E /* AppDelegate.m in Sources */,
+				CEEB5D021F7E4EB3008C861E /* RegisterVC.m in Sources */,
+				CEEB5D101F7E512E008C861E /* Imanov_TextField.m in Sources */,
+				CE65419D1F7F9A1F0094F9DC /* LoginAction.m in Sources */,
+				CEEB5CFF1F7E4EA5008C861E /* LoginVC.m in Sources */,
+				CE6541AB1F8006AF0094F9DC /* PlaceholderConstant.m in Sources */,
+				CEEB5CE81F7E4DAA008C861E /* main.m in Sources */,
+				CEEB5D131F7E51D8008C861E /* ResizeManager.m in Sources */,
+				CE5EAFCB1F80CA9A00098CD5 /* Imanov_Network.m in Sources */,
+				CE65419A1F7F945D0094F9DC /* Imanov_Button.m in Sources */,
+				CE6541B11F8011040094F9DC /* Imanov_Alert.m in Sources */,
+				CE5EAFD01F80E1CA00098CD5 /* Login_LinkedIn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEEB5CEF1F7E4DAA008C861E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEB5CF01F7E4DAA008C861E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEEB5CF41F7E4DAA008C861E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEB5CF51F7E4DAA008C861E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEEB5CF81F7E4DAA008C861E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: NIkhil Gupta (696HF758QY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: NIkhil Gupta (696HF758QY)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "69149d2f-1a58-4164-8101-d9b6a48f3903";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEEB5CF91F7E4DAA008C861E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: NIkhil Gupta (696HF758QY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: NIkhil Gupta (696HF758QY)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "69149d2f-1a58-4164-8101-d9b6a48f3903";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEEB5CFB1F7E4DAA008C861E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4812F10A917570E2CB11E34B /* Pods-Imavox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: NIkhil Gupta (696HF758QY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: NIkhil Gupta (696HF758QY)";
+				DEVELOPMENT_TEAM = XB2VWAU2J6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Imavox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hipster.barterli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "69149d2f-1a58-4164-8101-d9b6a48f3903";
+				PROVISIONING_PROFILE_SPECIFIER = Barterli_iOS_Development;
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		CEEB5CFC1F7E4DAA008C861E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4F624B0E45103FC72569274 /* Pods-Imavox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: NIkhil Gupta (696HF758QY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: NIkhil Gupta (696HF758QY)";
+				DEVELOPMENT_TEAM = XB2VWAU2J6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Imavox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hipster.barterli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "69149d2f-1a58-4164-8101-d9b6a48f3903";
+				PROVISIONING_PROFILE_SPECIFIER = Barterli_iOS_Development;
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEEB5CDE1F7E4DAA008C861E /* Build configuration list for PBXProject "Imavox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEB5CF81F7E4DAA008C861E /* Debug */,
+				CEEB5CF91F7E4DAA008C861E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEEB5CFA1F7E4DAA008C861E /* Build configuration list for PBXNativeTarget "Imavox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEB5CFB1F7E4DAA008C861E /* Debug */,
+				CEEB5CFC1F7E4DAA008C861E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEEB5CDB1F7E4DAA008C861E /* Project object */;
+}
